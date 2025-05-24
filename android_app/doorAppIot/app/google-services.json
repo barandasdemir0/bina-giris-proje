@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "132707683684",
+    "firebase_url": "https://doorappiot-default-rtdb.firebaseio.com",
+    "project_id": "doorappiot",
+    "storage_bucket": "doorappiot.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132707683684:android:29d6f67a162fd3ac287e71",
+        "android_client_info": {
+          "package_name": "com.example.doorappiot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa3wSGgjYx_Bbv928AKnRrIPdIG84q-Ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132707683684:android:acc195c48e3b3a8b287e71",
+        "android_client_info": {
+          "package_name": "package.com.example.doorappiot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa3wSGgjYx_Bbv928AKnRrIPdIG84q-Ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

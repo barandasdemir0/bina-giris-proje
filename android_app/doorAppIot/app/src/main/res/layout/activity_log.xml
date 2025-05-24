@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F7FA">
+
+    <ListView
+        android:id="@+id/logListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:divider="#E0E0E0"
+        android:dividerHeight="1dp"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:elevation="2dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/photoRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Geri"
+            android:textColor="#FFFFFF"
+            android:background="#4CAF50"
+            android:padding="12dp"
+            android:textAllCaps="false"
+            android:elevation="2dp" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Temizle"
+            android:textColor="#FFFFFF"
+            android:background="#F44336"
+            android:padding="12dp"
+            android:textAllCaps="false"
+            android:elevation="2dp" />
+    </LinearLayout>
+</LinearLayout>

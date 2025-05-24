@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="#F5F7FA"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/photoTimestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="19/05/2025 12:57"
+        android:textColor="#757575"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:paddingBottom="4dp" />
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:scaleType="centerCrop"
+            android:background="#FFFFFF"
+            android:padding="8dp"
+            android:clipToPadding="false"
+            android:elevation="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnOnOff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Kamerayı Kapat"
+                android:textColor="#FFFFFF"
+                android:background="#2196F3"
+                android:padding="12dp"
+                android:textAllCaps="false"
+                android:elevation="2dp" />
+
+            <Button
+                android:id="@+id/btnOpen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Kapıyı Aç"
+                android:textColor="#FFFFFF"
+                android:background="#4CAF50"
+                android:padding="12dp"
+                android:textAllCaps="false"
+                android:elevation="2dp" />
+
+            <Button
+                android:id="@+id/btnLastSign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Son Kayıtlar"
+                android:textColor="#FFFFFF"
+                android:background="#FF9800"
+                android:padding="12dp"
+                android:textAllCaps="false"
+                android:elevation="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

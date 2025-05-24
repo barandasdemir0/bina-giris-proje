@@ -1,0 +1,41 @@
+[versions]
+android-gradle-plugin = "8.1.0"
+google-services = "4.4.2"
+appcompat = "1.6.1"
+material = "1.9.0"
+activity = "1.7.2"
+constraintlayout = "2.1.4"
+firebase-database = "21.0.0"
+firebase-auth = "23.0.0"
+firebase-storage = "21.0.0"
+firebase-messaging = "24.0.0"
+glide = "4.16.0"
+okhttp = "4.10.0"
+json = "20231013"
+picasso = "2.71828"
+junit = "4.13.2"
+ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+
+[libraries]
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+activity = { module = "androidx.activity:activity", version.ref = "activity" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+firebase-database = { module = "com.google.firebase:firebase-database", version.ref = "firebase-database" }
+firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebase-auth" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebase-storage" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebase-messaging" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+json = { module = "org.json:json", version.ref = "json" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+junit = { module = "junit:junit", version.ref = "junit" }
+ext-junit = { module = "androidx.test.ext:junit", version.ref = "ext-junit" }
+espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-core" }
+paho-mqtt-client = { module = "org.eclipse.paho:org.eclipse.paho.client.mqttv3", version = "1.2.5" }
+paho-mqtt-service = { module = "org.eclipse.paho:org.eclipse.paho.android.service", version = "1.1.1" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
